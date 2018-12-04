@@ -1,0 +1,146 @@
+/*Menu Principal*/
+.bg-panel{
+  background-color: #B51F55;
+  padding: 20% 0%;
+}
+
+.bg-panel img{
+  width: 80px;
+  margin: 0 auto;
+  display: block;
+}
+
+.lista-menu .list{
+  margin-top: 0;
+  font-size: 14px;
+}
+
+.lista-menu .item-title{
+  font-weight: 500;
+}
+
+.lista-menu .item-media{
+  color: #666;
+}
+
+#hero{
+  background-image: url(../img/top-SmokeHouse.jpg);
+  background-size: cover;
+  padding: 30% 0;
+}
+
+.bg-blue{
+  background-color: #172738;
+}
+
+.title.block{
+  margin: 10px 0;
+}
+
+.title .block-header{
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+}
+
+.title p{
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFC836;
+  font-size: 10px;
+}
+
+.img-fluid{
+  max-width: 100%;
+  height: 100%;
+}
+
+.imagen{
+  padding: 5%;
+  height: 120px;
+}
+
+.content{
+  background-color: #fff;
+  color: #2E2E2E;
+  padding: 5%;
+  font-weight: 600;
+}
+
+.content .color-gris{
+  color: #aaa;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+#bienvenidos .imagen{
+  background-color: #E3091A;
+}
+
+#ubicaciones .imagen{
+  background-color: #1E4B62;
+  color: #C8C8C8;
+  text-align: center;
+}
+
+#ubicaciones .imagen i{
+  font-size: 100px;
+}
+
+#opinion .imagen{
+  background-color: #EE9D05;
+  color: #BE6501;
+  text-align: center;
+}
+
+.mt-5{
+  margin-top: 10px;
+}
+
+#quitate-hambre .imagen,
+#instagram .imagen,
+#facebook .imagen{
+  padding: 0;
+  position: relative;
+}
+
+.bg-overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(250, 188, 86, 0.6);
+}
+
+.imagen-info{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  color: #1F4C69;
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 5px 10px;
+}
+
+.imagen-info span{
+  font-size: 12px;
+  font-weight: normal;
+  display: block;
+}
+
+.bg-instagram{
+  background-color: rgba(130, 93, 144, 0.6);
+}
+
+.bg-facebook{
+  background-color: rgba(55, 66, 304, 0.6);
+}
+
+#instagram i,
+#facebook i{
+  color: #fff;
+  font-size: 60px;
+  text-align: center;
+}

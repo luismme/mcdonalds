@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Framework7</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/framework7.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/f7-icons.css">
+    <link rel="stylesheet" href="css/material-icons.css">
+  </head>
+  <body class="color-theme-red">
+
+    <div id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+
+      <section class="panel panel-left panel-cover">
+        <div class="bg-panel">
+          <img src="img/logo.png" alt="logo">
+        </div>
+        <article class="lista-menu">
+
+        <div class="list media-list">
+          <ul>
+              <li>
+                <a href="#" class="item-content item-link">
+                  <div class="item-media"><i class="material-icons">home</i>
+                  </div>
+                  <div class="item-inner">
+                    <div class="item-title">
+                      Noticias
+                    </div>
+                  </div>
+                </a>
+              </li>
+                <li>
+                  <a href="/cupones/" class="item-content item-link panel-close">
+                    <div class="item-media"><i class="material-icons">label</i>
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">
+                        Cupones
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                  <li>
+                    <a href="#" class="item-content item-link">
+                      <div class="item-media"><i class="material-icons">room_service</i>
+                      </div>
+                      <div class="item-inner">
+                        <div class="item-title">
+                          Comida
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                    <li>
+                      <a href="#" class="item-content item-link">
+                        <div class="item-media"><i class="material-icons">place</i>
+                        </div>
+                        <div class="item-inner">
+                          <div class="item-title">
+                            Restaurantes
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+          </ul>
+        </div>
+        </article>
+      </section>
+
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Initial Page, "data-name" contains page name -->
+        <div data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-inner">
+              <div class="left">
+                <a href="#" class="icon-only link panel-open" data-panel="left">
+                  <i class="material-icons">menu</i>
+                </a>
+              </div>
+                <div class="title">Mc Donald's</div>
+            </div>
+          </nav>
+
+          <!-- Scrollable page content -->
+          <section class="page-content bg-blue">
+
+            <div id="hero">
+
+            </div>
+
+            <div class="block title">
+              <h4 class="block-header color-white">
+                Nueva Tocino SmokeHouse
+              </h4>
+              <p>Leer Más</p>
+            </div>
+
+            <div class="block">
+              <div class="row">
+                <article class="col-50">
+                  <div id="bienvenidos">
+                    <div class="imagen">
+                      <img src="img/home-bigmac-burger.png" alt="bienvenidos al himalaia" class="img-fluid">
+                    </div>
+                    <div class="content">
+                      <p>BIENVENIDOS a la app oficial de McDonald's</p>
+                    </div>
+                  </div>
+                    <div id="quitate-hambre" class="mt-5">
+                      <div class="imagen">
+                        <div class="bg-overlay"></div>
+                        <img src="img/home-hungry.png" alt="Separate Hambre" class="img-fluid">
+                          <div class="imagen-info">
+                            <p>¡Quitate el hambre!<span>con estos cupones</span></p>
+                          </div>
+                      </div>
+                      <div class="content">
+                        <p>Los mejores cupones están aquí</p>
+                        <p class="color-gris">Descubrelos en nuestra sección de cupones.</p>
+                      </div>
+                    </div>
+                      <div id="instagram" class="mt-5">
+                        <div class="imagen">
+                          <div class="bg-overlay bg-instagram"></div>
+                          <img src="img/home-instagram.jpg" alt="Separate Hambre" class="img-fluid">
+                            <div class="imagen-info">
+                              <i class="material-icons">camera_out</i>
+                            </div>
+                        </div>
+                        <div class="content">
+                          <p>Siguenos en Instagram @McHonduras</p>
+                          <p class="color-gris">Haz clic para encontrar tu foto</p>
+                        </div>
+                      </div>
+                </article>
+                <article class="col-50">
+                  <div id="ubicaciones">
+                    <div class="imagen">
+                      <i class="material-icons">place</i>
+                    </div>
+                    <div class="content">
+                      <p>Conoce las ubicaciones cerda de ti.</p>
+                    </div>
+                      <div id="opinion" class="mt-5">
+                        <div class="imagen">
+                          <i class="material-icons">insert_comment</i>
+                        </div>
+                        <div class="content">
+                          <p>McOpinión</p>
+                          <p class="color-gris">Llena tu encuesta haciendo clic aquí</p>
+                        </div>
+                          <div id="facebook" class="mt-5">
+                            <div class="imagen">
+                              <div class="bg-overlay bg-facebook"></div>
+                              <img src="img/home-facebook.jpg" alt="Separate Hambre" class="img-fluid">
+                                <div class="imagen-info">
+                                  <i class="material-icons">favorite_border</i>
+                                </div>
+                            </div>
+                            <div class="content">
+                              <p>Encuentranos en Facebook</p>
+                              <p class="color-gris">Haz clic para encontrar tu foto</p>
+                            </div>
+                          </div>
+                </article>
+              </div>
+            </div>
+
+          </section>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="js/framework7.min.js"></script>
+    <script src="js/my-app.js"></script>
+  </body>
+</html>
